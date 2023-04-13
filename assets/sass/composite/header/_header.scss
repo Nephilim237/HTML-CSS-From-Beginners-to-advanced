@@ -1,4 +1,4 @@
-.header {
+.cc-header {
   position: absolute;
   left: 0;
   right: 0;
@@ -17,8 +17,8 @@
 
   @media (max-width: $md) {
     &.show {
-      .navigation {
-        transform: translateX(0);
+      .cc-navigation {
+        transform: translateX(100%);
         visibility: visible;
       }
     }
@@ -45,6 +45,6 @@
 }
 
 
-.header.light-header {
+.cc-header.light-header {
   color: $main-color;
 }

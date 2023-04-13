@@ -12,9 +12,9 @@
     }
 
     .search-widget {
-        .input-group {
+        .cc-input-group {
 
-            .form-control {
+            .cc-form-control {
                 width: 100%;
                 padding: .357rem .75rem .375rem 20px;
                 font-size: 14px;
@@ -74,12 +74,12 @@
             display: flex;
             flex-flow: row;
 
-            .input-group {
-                .input-group-prepend {
+            .cc-input-group {
+                .cc-input-group-prepend {
                     display: flex;
                     margin-right: -1px;
 
-                    .input-group-text {
+                    .cc-input-group-text {
                         display: flex;
                         align-items: center;
                         padding: 0 0 0 15px;
@@ -95,7 +95,7 @@
                     }
                 }
 
-                .form-control {
+                .cc-form-control {
                     flex: 1 1 auto;
                     width: 1%;
                     margin-bottom: 0;

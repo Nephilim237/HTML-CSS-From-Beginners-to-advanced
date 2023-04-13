@@ -6,10 +6,10 @@
         <meta name="author" content="Coding city">
         <title>Pratiquer le HTML5 & le CSS3 | Accueil</title>
         
-        <link rel="icon" href="assets/imgs/cc.ico">
+        <link rel="icon" href="assets/img/cc.ico">
         
         <!-- Lien de notre fichier CSS -->
-        <link rel="stylesheet" href="assets/stylesheets/screen.css">
+        <link rel="stylesheet" href="assets/stylesheets/styles.css">
         
         <!-- Font awesome link (Lien externe pour les icones) -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -17,28 +17,29 @@
     </head>
     <body>
         <!-- header section -->
-        <header class="header light-header" id="header">
-            <div class="container">
+        <header class="cc-header light-header" id="header">
+            <div class="cc-container">
                 <div class="header-container">
                     <!-- Logo -->
-                    <a href="#" class="logo"><img src="assets/imgs/cc.png" alt="Le logo" class="img"></a>
+                    <a href="#" class="logo"><img src="assets/img/cc.png" alt="Le logo" class="img"></a>
                     <!--End logo -->
-                    <nav class="navigation"><!-- Navigation begin -->
-                        <ul class="nav-links">
-                            <li class="nav-item"><a href="index.html" class="nav-link">Accueil <i
+                    <nav class="cc-navigation"><!-- Navigation begin -->
+                        <ul class="cc-nav-links">
+                            <li class="cc-nav-item"><a href="index.html" class="cc-nav-link">Accueil <i
                                     class="fas fa-home"></i></a></li>
                             
-                            <li class="nav-item submenu"><!-- Submenu link -->
-                                <a href="#" class="nav-link">Blog <i class="fas fa-comments"></i></a>
+                            <li class="cc-nav-item cc-submenu"><!-- Submenu link -->
+                                <a href="#" class="cc-nav-link">Blog <i class="fas fa-comments"></i></a>
                                 
-                                <ul class="dropdown-menu"><!-- Dropdown menu -->
-                                    <li class="nav-item"><a href="blog.html" class="nav-link active">Blog <i
+                                <ul class="cc-dropdown-menu"><!-- Dropdown menu -->
+                                    <li class="cc-nav-item"><a href="blog.html" class="cc-nav-link active">Blog <i
                                             class="fas fa-comment"></i></a></li>
-                                    <li class="nav-item"><a href="single.html" class="nav-link">Single Blog <i class="fas fa-newspaper"></i></a></li>
+                                    <li class="cc-nav-item"><a href="single.html" class="cc-nav-link">Single Blog
+                                        <i class="fas fa-newspaper"></i></a></li>
                                 </ul><!-- End dropdown menu -->
-                            </li><!-- End submenu link -->
+                            </li><!-- End cc-submenu link -->
                             
-                            <li class="nav-item"><a href="#" class="nav-link">Contact <i class="fas fa-envelope"></i></a></li>
+                            <li class="cc-nav-item"><a href="contact.html" class="cc-nav-link">Contact <i class="fas fa-envelope"></i></a></li>
                         </ul>
                     </nav><!-- End Navigation -->
                     <a href="#" class="hamburger" id="hamburger"><i class="fas fa-bars"></i></a><!-- responsive menu icon
@@ -49,7 +50,7 @@
         
         <!-- Blog intro -->
         <section class="blog-intro pt-120" id="blog-intro">
-            <div class="container">
+            <div class="cc-container">
                 <div class="intro">
                     <h1 class="main-title">Lorem ipsum dolor sit amet, consectetur.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, dolorum eius ipsam modi
@@ -62,10 +63,10 @@
         
         <!-- Blog category area -->
         <section class="blog-category py-70" id="blog-category">
-            <div class="container">
-                <div class="category-wrapper row">
+            <div class="cc-container">
+                <div class="category-wrapper cc-row">
                     <div class="category-post px-15"><!-- Category post 1 -->
-                        <img src="assets/imgs/blog/cat-post/cat-2.jpg" alt="Post" class="img"><!-- Image -->
+                        <img src="assets/img/blog/cat-post/cat-2.jpg" alt="Post" class="img"><!-- Image -->
                         <div class="category-details">
                             <div class="category-text">
                                 <a href=""><h5>Lorem ipsum.</h5></a>
@@ -76,7 +77,7 @@
                     </div><!-- End category post 1 -->
                     
                     <div class="category-post px-15"><!-- Category post 2 -->
-                        <img src="assets/imgs/blog/cat-post/cat-3.png" alt="Post" class="img">
+                        <img src="assets/img/blog/cat-post/cat-3.png" alt="Post" class="img">
                         <div class="category-details">
                             <div class="category-text">
                                 <a href=""><h5>Lorem ipsum.</h5></a>
@@ -87,7 +88,7 @@
                     </div><!-- End category post 2 -->
                     
                     <div class="category-post px-15"><!-- Category post 3 -->
-                        <img src="assets/imgs/blog/cat-post/cat-1.jpeg" alt="Post" class="img">
+                        <img src="assets/img/blog/cat-post/cat-1.jpeg" alt="Post" class="img">
                         <div class="category-details">
                             <div class="category-text">
                                 <a href=""><h5>Lorem ipsum.</h5></a>
@@ -102,10 +103,10 @@
         
         <!-- Blog Area -->
         <section id="blog-area" class="blog-area py-70">
-            <div class="container">
-                <div class="area-wrapper row">
+            <div class="cc-container">
+                <div class="area-wrapper cc-row">
                     <div class="blog-left-side px-15"><!-- Partie des catégorie et information sur l'auteur -->
-                        <article class="blog-item row">
+                        <article class="blog-item cc-row">
                             <div class="blog-info px-15">
                                 <div class="post-tag">
                                     <a href="#" class="active">Lorem.</a>
@@ -121,15 +122,15 @@
                                 </ul>
                             </div>
                             <div class="blog-post px-15">
-                                <img src="assets/imgs/blog/main-blog/mainBlog-1.jpeg" alt="" class="img">
+                                <img src="assets/img/blog/main-blog/mainBlog-1.jpeg" alt="" class="img">
                                 <div class="blog-details">
                                     <a href="#"><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2></a>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis et illum in iure, laborum libero, natus nihil praesentium quae quo sed unde voluptatem. Error minima molestiae nobis qui voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cum cumque cupiditate deleniti dignissimos dolore, ducimus ex illo illum ipsa, ipsam itaque natus nemo nostrum voluptas. Accusantium et quos voluptates.</p>
-                                    <a href="#" class="btn">Lire l'article</a>
+                                    <a href="#" class="cc-btn">Lire l'article</a>
                                 </div>
                             </div>
                         </article>
-                        <article class="blog-item row">
+                        <article class="blog-item cc-row">
                             <div class="blog-info px-15">
                                 <div class="post-tag"><!-- Categories -->
                                     <a href="#" class="active">Lorem.</a>
@@ -147,28 +148,28 @@
                             </div>
                             
                             <div class="blog-post px-15"><!-- Article en lui meme -->
-                                <img src="assets/imgs/blog/main-blog/mainBlog-2.jpg" alt="" class="img">
+                                <img src="assets/img/blog/main-blog/mainBlog-2.jpg" alt="" class="img">
                                 <div class="blog-details">
                                     <a href="#"><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2></a>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis et illum in iure, laborum libero, natus nihil praesentium quae quo sed unde voluptatem. Error minima molestiae nobis qui voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cum cumque cupiditate deleniti dignissimos dolore, ducimus ex illo illum ipsa, ipsam itaque natus nemo nostrum voluptas. Accusantium et quos voluptates.</p>
-                                    <a href="#" class="btn">Lire l'article</a>
+                                    <a href="#" class="cc-btn">Lire l'article</a>
                                 </div>
                             </div><!-- Fin Article -->
                         </article>
                         <nav class="blog-pagination"><!-- Pagination -->
-                            <ul class="pagination">
-                                <li class="page-item">
-                                    <a href="#" class="page-link"><span>
+                            <ul class="cc-pagination">
+                                <li class="cc-page-item">
+                                    <a href="#" class="cc-page-link"><span>
                                         <i class="fas fa-angle-double-left"></i>
                                     </span></a>
                                 </li>
-                                <li class="page-item"><a href="#" class="page-link">00</a></li>
-                                <li class="page-item"><a href="#" class="page-link active">01</a></li>
-                                <li class="page-item"><a href="#" class="page-link">00</a></li>
-                                <li class="page-item"><a href="#" class="page-link">00</a></li>
-                                <li class="page-item"><a href="#" class="page-link">00</a></li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link disabled"><span>
+                                <li class="cc-page-item"><a href="#" class="cc-page-link">00</a></li>
+                                <li class="cc-page-item"><a href="#" class="cc-page-link active">01</a></li>
+                                <li class="cc-page-item"><a href="#" class="cc-page-link">00</a></li>
+                                <li class="cc-page-item"><a href="#" class="cc-page-link">00</a></li>
+                                <li class="cc-page-item"><a href="#" class="cc-page-link">00</a></li>
+                                <li class="cc-page-item">
+                                    <a href="#" class="cc-page-link disabled"><span>
                                         <i class="fas fa-angle-double-right"></i>
                                     </span></a>
                                 </li>
@@ -178,17 +179,17 @@
                     
                     <div class="blog-right-side px-15">
                         <aside class="single-sidebar-widget search-widget">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Rechercher articles">
+                            <div class="cc-input-group">
+                                <input type="text" class="cc-form-control" placeholder="Rechercher articles">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-widget" type="button"><i class="fas fa-search"></i></button>
+                                    <button class="cc-btn btn-widget" type="button"><i class="fas fa-search"></i></button>
                                 </span>
                             </div>
                             <div class="br"></div>
                         </aside>
                         
                         <aside class="single-sidebar-widget author-widget t-center fw-300">
-                            <img src="assets/imgs/mentors/m4.jpg" alt="" class="author-img img-rounded">
+                            <img src="assets/img/mentors/m4.jpg" alt="" class="author-img img-rounded">
                             <h4>Coding city</h4>
                             <p>Bloggueur Pro</p>
                             <div class="social-icon">
@@ -204,13 +205,13 @@
                             <h4 class="widget-title">Newsletter</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores commodi consequuntur corporis dolores hic labore maxime sed. Beatae blanditiis delectus dolor eius, error esse facilis, odit optio, perferendis quam vel!</p>
                             <div class="form-group">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">
+                                <div class="cc-input-group">
+                                    <div class="cc-input-group-prepend">
+                                        <div class="cc-input-group-text">
                                             <i class="fas fa-envelope"></i>
                                         </div>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Entrez email">
+                                    <input type="text" class="cc-form-control" placeholder="Entrez email">
                                 </div>
                                 <a href="#" class="bbtns">S'inscrire</a>
                             </div>
@@ -242,8 +243,8 @@
     
         <!-- Footer section -->
         <footer class="footer py-70 bg-bw" id="footer">
-            <div class="container">
-                <div class="footer-blocks row">
+            <div class="cc-container">
+                <div class="footer-blocks cc-row">
                     <div class="footer-block f-links px-15"><!-- Footer links -->
                         <ul>
                             <li><a href="#">A propos de nous</a></li>

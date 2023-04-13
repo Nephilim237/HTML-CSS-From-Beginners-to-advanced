@@ -1,4 +1,4 @@
-.btn {
+.cc-btn {
   display: inline-block;
   padding: .5rem 1rem;
   background-color: $main-color;
@@ -28,7 +28,7 @@
     padding: .75rem 1.5rem;
   }
 
-  &.btn-outline:hover, &.btn-outline:focus {
+  &.cc-btn-outline:hover, &.cc-btn-outline:focus {
     background-color: transparent;
     border-color: $main-color;
     color: $main-color;

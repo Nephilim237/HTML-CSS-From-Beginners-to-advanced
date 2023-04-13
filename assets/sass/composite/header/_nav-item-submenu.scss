@@ -1,9 +1,9 @@
-.nav-item.submenu {
+.cc-nav-item.cc-submenu {
   position: relative;
 
   @media (min-width: $md) {
     &:hover {
-      .dropdown-menu {
+      .cc-dropdown-menu {
         opacity: 1;
         visibility: visible;
         top: 100%;
@@ -12,7 +12,7 @@
   }
 
 
-  .dropdown-menu {
+  .cc-dropdown-menu {
     position: absolute;
     display: block;
     left: 0;
@@ -29,7 +29,7 @@
     transition: all .3s ease-in;
   }
 
-  a.nav-link {
+  a.cc-nav-link {
     display: block;
     width: 100%;
     transition: color .25s ease-in;
