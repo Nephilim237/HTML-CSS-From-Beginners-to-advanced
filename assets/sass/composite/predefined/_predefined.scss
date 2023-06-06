@@ -1,27 +1,30 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-@import "titles";
+@import 'titles';
 
-@import "grid";
+@import 'grid';
 
-@import "reset";
+@import 'reset';
 
-@import "padding";
+@import 'padding';
 
-@import "maring";
+@import 'maring';
 
-@import "img";
+@import 'img';
 
-@import "form";
+@import 'form';
 
-.fas, .far, .fab, .fa {
-  margin: 0 .25rem;
+.fas,
+.far,
+.fab,
+.fa {
+  margin: 0 0.25rem;
   vertical-align: middle;
 }
-
-
 
 //Predifined padding
 
@@ -30,9 +33,13 @@
 }
 
 .t-center {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .fw-300 {
-    font-weight: 300 !important;
+  font-weight: 300 !important;
+}
+
+.h-100 {
+  height: 100%;
 }

@@ -1,43 +1,51 @@
 .banner {
   padding: 12em 2em 8em 2em;
-  background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4)), url("../img/banner/banner.jpg") no-repeat top;
+  background: linear-gradient(to bottom, rgba(#000, .5) 25%, rgba(#000, .65) 65%), url("../img/banner/banner.jpg") no-repeat top;
   background-size: cover;
   text-align: center;
   border-top: .5rem solid #ffa400;
 
-    &.single-banner {
-        background: linear-gradient(to bottom, rgba(#000, .75) 75%, rgba(#fff, .4)), url("../img/blog/main-blog/mainBlog-2.jpg") center no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
-        height: 200px;
+  @media (max-width: $sm) {
+    padding: 8em 2em;
+  }
 
-        .b-title {
-            margin-top: -5rem;
-            margin-bottom: 0;
-        }
+  &.single-banner {
+    background: linear-gradient(to bottom, rgba(#000, .5) 25%, rgba(#000, .65) 65%), url("../img/blog/main-blog/mainBlog-2.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 200px;
+
+    .b-title {
+      margin-top: -5rem;
+      margin-bottom: 0;
     }
+  }
 
   .banner-wrapper {
     width: 70%;
-    margin-top: -2.5rem;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     @media (max-width: $md) {
       width: 90%;
     }
 
     .cc-page-link {
 
-        a {
-            padding: .5rem 0;
-            margin-left: 1rem;
-            color: $break-white;
-            transition: .25s ease-in;
-            &:hover {
-                color: $main-color;
-            }
+      a {
+        padding: .5rem 0;
+        margin-left: 1rem;
+        color: $break-white;
+        transition: .25s ease-in;
+
+        &:hover {
+          color: $main-color;
         }
+      }
     }
 
     p {

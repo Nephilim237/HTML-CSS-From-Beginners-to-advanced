@@ -1,62 +1,106 @@
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: .5rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
-h1, .h1 {
-  font-size: 2.5em;
+h1,
+.h1 {
+    font-size: 2.5em;
 }
 
-h2, .h2 {
-  font-size: 2.3em;
+h2,
+.h2 {
+    font-size: 2.3em;
 }
 
-h3, .h3 {
-  font-size: 2em;
-}
-
-h4, .h4 {
-  font-size: 1.6em;
-}
-
-h5, .h5 {
-  font-size: 1.4em;
-}
-
-h6, .h6 {
-  font-size: 1.2em;
-}
-
-.main-title, .b-title {
-  font-size: 3em;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 2rem;
-
-  @media (max-width: $md) {
+h3,
+.h3 {
     font-size: 2em;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
+}
+
+h4,
+.h4 {
+    font-size: 1.6em;
+}
+
+h5,
+.h5 {
+    font-size: 1.4em;
+}
+
+h6,
+.h6 {
+    font-size: 1.2em;
+}
+
+@media (max-width: $sm) {
+    h1,
+    .h1 {
+        font-size: 2em;
+    }
+
+    h2,
+    .h2 {
+        font-size: 1.8em;
+    }
+
+    h3,
+    .h3 {
+        font-size: 1.5em;
+    }
+
+    h4,
+    .h4 {
+        font-size: 1.2em;
+    }
+
+    h5,
+    .h5 {
+        font-size: 1.18em;
+    }
+
+    h6,
+    .h6 {
+        font-size: 1em;
+    }
+}
+
+.main-title,
+.b-title {
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    @media (max-width: $md) {
+        font-size: 2em;
+        line-height: 1.2 !important;
+        margin-bottom: 1rem;
+    }
 }
 
 .main-title {
-  font-family: $ubuntu;
-  line-height: 1;
-  color: $main-color;
+    font-family: $ubuntu;
+    line-height: 1;
+    color: $main-color;
 }
 
 .b-title {
-  font-family: $piazzo;
-  color: #00dafd;
-  line-height: 2;
+    font-family: $piazzo;
+    color: #00dafd;
+    line-height: 2;
 }
 
 .l4-title {
-  font-family: $piazzo;
-  color: $main-color;
-  font-size: 1.2rem;
-  font-weight: 600;
+    font-family: $piazzo;
+    color: $main-color;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .post-title {
@@ -76,14 +120,14 @@ h6, .h6 {
 }
 
 .section-header {
-  p {
-    color: $sec-color;
-  }
+    p {
+        color: $sec-color;
+    }
 
-  @media (max-width: $md) {
-    max-width: 90%;
-    margin-bottom: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    @media (max-width: $md) {
+        max-width: 90%;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
