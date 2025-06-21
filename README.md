@@ -1,4 +1,5 @@
 # HTML-CSS-From-Beginners-to-advanced
+Build a website using HTML CSS (Performed by SASS preprocessor) and JavaScript. Training Course for beginners to master their skills
 ![image](https://github.com/user-attachments/assets/aa5fd40c-5351-4241-9d28-bd741a8cf657)
 
 
