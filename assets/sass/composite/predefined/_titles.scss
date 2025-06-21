@@ -10,63 +10,63 @@ h6 {
 
 h1,
 .h1 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 h2,
 .h2 {
-    font-size: 2.3em;
+    font-size: 1.6em;
 }
 
 h3,
 .h3 {
-    font-size: 2em;
+    font-size: 1.4em;
 }
 
 h4,
 .h4 {
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 h5,
 .h5 {
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 h6,
 .h6 {
-    font-size: 1.2em;
+    font-size: .8em;
 }
 
 @media (max-width: $sm) {
     h1,
     .h1 {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 
     h2,
     .h2 {
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
 
     h3,
     .h3 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     h4,
     .h4 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     h5,
     .h5 {
-        font-size: 1.18em;
+        font-size: .8em;
     }
 
     h6,
     .h6 {
-        font-size: 1em;
+        font-size: .65em;
     }
 }
 
@@ -75,36 +75,36 @@ h6,
     font-size: 3em;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
 
     @media (max-width: $md) {
-        font-size: 2em;
+        font-size: 1.8rem;
         line-height: 1.2 !important;
         margin-bottom: 1rem;
     }
 }
 
 .main-title {
-    font-family: $ubuntu;
+    font-family: $roboto;
     line-height: 1;
     color: $main-color;
 }
 
 .b-title {
-    font-family: $piazzo;
+    font-family: $almendra-sc;
     color: #00dafd;
     line-height: 2;
 }
 
 .l4-title {
-    font-family: $piazzo;
+    font-family: $almendra-sc;
     color: $main-color;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .post-title {
-    font-family: $ubuntu;
+    font-family: $roboto;
     font-weight: 400;
     font-size: 1.6rem;
     color: $sec-color;

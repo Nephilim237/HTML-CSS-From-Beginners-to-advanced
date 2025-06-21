@@ -1,16 +1,17 @@
 .banner {
   padding: 12em 2em 8em 2em;
-  background: linear-gradient(to bottom, rgba(#000, .5) 25%, rgba(#000, .65) 65%), url("../img/banner/banner.jpg") no-repeat top;
+  background: linear-gradient(to bottom, rgba(#000, 0.15), rgba(#000, 0.65)),
+    url("../img/banner/banner-new.jpg") no-repeat top;
   background-size: cover;
   text-align: center;
-  border-top: .5rem solid #ffa400;
 
   @media (max-width: $sm) {
     padding: 8em 2em;
   }
 
   &.single-banner {
-    background: linear-gradient(to bottom, rgba(#000, .5) 25%, rgba(#000, .65) 65%), url("../img/blog/main-blog/mainBlog-2.jpg") center no-repeat;
+    background: linear-gradient(to bottom, rgba(#000, 0.15), rgba(#000, 0.65)),
+      url("../img/blog/main-blog/mainBlog-2.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     height: 200px;
@@ -35,12 +36,11 @@
     }
 
     .cc-page-link {
-
       a {
-        padding: .5rem 0;
+        padding: 0.5rem 0;
         margin-left: 1rem;
         color: $break-white;
-        transition: .25s ease-in;
+        transition: 0.25s ease-in;
 
         &:hover {
           color: $main-color;
@@ -50,9 +50,15 @@
 
     p {
       color: #fff;
-      font-size: 1rem;
+      // font-size: 1rem;
       font-weight: 400;
       margin-bottom: 2rem;
+      letter-spacing: 0.5px;
+      line-height: 2;
+
+      @media (max-width: $md) {
+        line-height: 1.5;
+      }
     }
   }
 }

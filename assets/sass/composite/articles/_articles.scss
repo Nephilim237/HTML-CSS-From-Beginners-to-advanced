@@ -1,16 +1,19 @@
 #articles {
-
   .articles-container {
     article {
       width: 50%;
-      flex: 0 0 50%;
+      flex: 0 0 25%;
 
       @media (max-width: $md) {
         width: 100%;
         flex: 0 0 100%;
         margin-bottom: 2rem;
         padding-bottom: 2rem;
-        border-bottom: 1px solid transparentize($main-color, .75);
+        border-bottom: 1px solid transparentize($main-color, 0.75);
+
+        &:last-child {
+          border-bottom: 1px solid transparent;
+        }
       }
 
       header h4 {
@@ -20,7 +23,7 @@
 
       p {
         color: $sec-color;
-        padding: 1rem 0;
+        // padding: 1rem 0;
 
         @media (max-width: $md) {
           padding: 0;
